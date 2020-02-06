@@ -7,9 +7,7 @@ export const increment = payload => {
   };
 };
 
-export const decriment = payload => {
-  return {
-    type: DECREMENT,
-    payload
-  };
-};
+export const decriment = payload => ({
+  type: DECREMENT,
+  payload
+});
